@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;  
+}
+.bg-smallwhite{
+    background-color: white;
+    height: 50px
+}
+.bg-image {
+    /* The image used */
+    background-image: url("tlodziewczyna.png");
+    /* Add the blur effect */
+    filter: brightness(100%)blur(1px);
+    height: 100vh;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.linia{
+    border: none; 
+    filter: blur(1px);
+    height: 5px;
+    background-color: black;
+    margin: 0px;
+}
+
+.bg-text{
+    font-size: 20px;
+    position: absolute;
+    top: 56%;
+    left: 30%;
+    text-align: center;
+    border: 3px solid black;
+    transform: translate(-50%,-50%);
+}
+.czikała{
+    position: absolute;
+    background-color: yellow;
+    top: 56%;
+    right:30%;
+    height: 10vh;
+    width: auto;
+}
+.bg-white {
+    background-image: url("biale.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    margin: 0px;   
+}
