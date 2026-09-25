@@ -57,11 +57,14 @@
 }
 .czikała{
     position: absolute;
-    background-color: yellow;
-    top: 56%;
-    right:30%;
-    height: 10vh;
+    top: 42%;
+    right:20%;
+    height: auto;
     width: auto;
+}
+img {
+    width: 250px;
+    height: 350px;
 }
 .bg-white {
     background-image: url("biale.PNG");
