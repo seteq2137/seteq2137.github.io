@@ -1,15 +1,31 @@
 * {
     box-sizing: border-box;  
 }
+
+.naglowek{
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    height: 40px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 3px 1px black;
+}
 .bg-smallwhite{
     background-color: white;
     height: 50px
 }
 .bg-image {
     /* The image used */
-    background-image: url("tlodziewczyna.png");
+    background-image: url("tlodziewczyna3.png");
     /* Add the blur effect */
-    filter: brightness(100%)blur(1px);
+    filter: brightness(100%)blur(0.5px);
     height: 100vh;
     width: 100%;
     /* Center and scale the image nicely */
@@ -25,14 +41,18 @@
     background-color: black;
     margin: 0px;
 }
-
+.elozelo {
+    justify-content: space-around;
+}
 .bg-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     position: absolute;
     top: 56%;
     left: 30%;
     text-align: center;
     border: 3px solid black;
+    border-radius: 20%;
     transform: translate(-50%,-50%);
 }
 .czikała{
