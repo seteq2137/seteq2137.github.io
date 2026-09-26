@@ -1,5 +1,11 @@
+@font-face {
+    font-family: elo;
+    src: url(czcionki/gta/Pricedown\ Bl.otf) format("Truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 * {
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 .naglowek{
@@ -7,11 +13,12 @@
     border: 4px solid black;
     border-radius: 10px;
     padding: 20px;
-    width: 40%;
     height: 40px;
+    width: 40%;
     position: absolute;
     margin-top: 30px;
-    margin-left: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -46,13 +53,12 @@
     justify-content: space-around;
 }
 .bg-text{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-family: elo;
+    font-size: 50px;
     position: absolute;
     top: 50%;
     left: 30%;
     text-align: center;
-    border: 3px solid black;
     border-radius: 20%;
     transform: translate(-50%,-50%);
 }
@@ -83,4 +89,7 @@
 
 body{
     margin: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: linear-gradient(60deg, #349ff2,#96c5e8,#bde2ff);
 }
