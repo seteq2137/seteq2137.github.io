@@ -7,7 +7,6 @@
 * {
     box-sizing: border-box;
 }
-
 .naglowek{
     background-color: white;
     border: 4px solid black;
@@ -21,16 +20,22 @@
     margin-right: 20%;
     z-index: 10;
     display: flex;
-    justify-content: center;
     box-shadow: 4px 4px 3px 1px black;
 }
 .bg-smallwhite{
     background-color: white;
     height: 50px
 }
+.zawartoscnaglowka{
+     margin-top: ;
+}
+.seteq{
+    height: 20px;
+    margin:0px;
+}
 .bg-image {
     /* The image used */
-    background-image: url("tlodziewczyna3.png");
+    background-image: url("tlodziewczyna2.png");
     /* Add the blur effect */
     filter: brightness(100%)blur(0.5px);
     height: 100vh;
