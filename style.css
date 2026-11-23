@@ -1,9 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    background: linear-gradient(60deg, #349ff2,#96c5e8,#bde2ff);
+}
+/* CZCIONKI-------------------- */
 @font-face {
-    font-family: elo;
-    src: url(czcionki/gta/Pricedown\ Bl.otf) format("Truetype");
+    font-family: coco;
+    src: url(czcionki/fajnegrube/Cocogoose-Pro-Bold-trial.ttf) format("Truetype");
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: ladne;
+    src: url(czcionki/ladne/Mf\ Be\ Yourself.ttf) format("Truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: just;
+    src: url(czcionki/justsayin/Just\ Sayin\ -\ TTF.ttf) format("Truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: sld;
+    src: url(czcionki/pokwasie/GretoonHighlight.ttf) format("Truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: mc;
+    src: url(czcionki/mc/Minecraftia-Regular.ttf) format("Truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.coco{
+    font-family: coco;
+}
+.ladne{
+    font-family: ladne;
+}
+.just{
+    font-family: just;
+}
+.sld{
+    font-family: sld;
+}
+.mc{
+    font-family: mc;
+}
+
+/* NAGLOWEK------------------- */
 .naglowek::before {
     content: "";
     position: absolute;
@@ -15,9 +64,6 @@
     background-color: black;
     transform: translateY(-50%);
     z-index: 1;
-}
-* {
-    box-sizing: border-box;
 }
 .naglowek {
     position: absolute;
@@ -51,18 +97,27 @@
     z-index: 1;
 }
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
 }
 .dominik{
     text-align: center;
     display: flex;
     align-items: center;
-    font-family: elo, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     white-space: nowrap;
+}
+
+/* MAIN-------------------------------- */
+.linia {
+    width: 80%;
+    max-width: 1400px;
+    height: 4px;
+    margin: 0 auto;
+    border: none;
+    background-color: black;
 }
 .bg-image {
     background-image: url("tlodziewczyna4.png");
@@ -76,43 +131,33 @@
     background-repeat: no-repeat;
     position: relative;
 }
-.linia {
-    width: 80%;
-    max-width: 1400px;
-    height: 4px;
-    margin: 0 auto;
-    border: none;
-    background-color: black;
-}
-.elozelo {
-    justify-content: space-around;
-}
 .bg-text{
-    font-family: elo;
-    font-size: 50px;
+    top:50%;
+    transform: translateY(-50%);
+    left: 10%;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    font-size: 40px;
+}
+.linia1{
+    font-size: 25px;
+}
+.czikała {
     position: absolute;
     top: 50%;
-    left: 30%;
-    text-align: center;
-    border-radius: 20%;
-    transform: translate(-50%,-50%);
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 30%;
 }
-.czikała{
-    position: absolute;
-    top: 50%;
-    right: 30%;
-    height: auto;
-    width: auto;
-    transform: translate(-50%,-50%);
-}
-.obrazek{
-    width: 350px;
+
+.obrazek {
+    width: 100%;
     border: 4px solid black;
-    border-radius: 30px;
-    box-shadow: 4px 4px 10px 1px black;
-    position: absolute;
-    transform: translate(-50%,-50%);
+    border-radius: 23px;
+    box-shadow: 7px 8px 2px black;
 }
+
 .bg-white {
     width: 80%;
     max-width: 1400px;
@@ -121,9 +166,4 @@
     background-image: url("biale.PNG");
     background-size: cover;
     background-position: center;
-}
-
-body{
-    margin:0px;
-    background: linear-gradient(60deg, #349ff2,#96c5e8,#bde2ff);
 }
