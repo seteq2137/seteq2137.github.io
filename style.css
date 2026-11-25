@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     margin:0px;
@@ -75,7 +76,7 @@ body{
     height: 70px;
     padding: 0 2%;
     background-color: white;
-    border: 4px solid black;
+    border: 3.67px solid black;
     border-radius: 23px;
     box-shadow: 7px 8px 2px black;
     z-index: 10;
@@ -120,7 +121,7 @@ body{
     background-color: black;
 }
 .bg-image {
-    background-image: url("tlodziewczyna4.png");
+    background-image: url("tlodziewczyna5.png");
     width: 80%;
     max-width: 1400px;
     aspect-ratio: 16 / 9;
@@ -131,17 +132,38 @@ body{
     background-repeat: no-repeat;
     position: relative;
 }
-.bg-text{
-    top:50%;
-    transform: translateY(-50%);
-    left: 10%;
-    position: relative;
-    align-items: center;
+.bg-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    line-height: 75px;
     z-index: 1;
-    font-size: 40px;
 }
 .linia1{
-    font-size: 25px;
+    font-size: 67px;
+}
+.linia2{
+    font-size: 70px;
+}
+.linia3{
+    font-size: 70px;
+}
+.linia4{
+    font-size: 40px;
+}
+.przyciskomnie {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    border: 5.67px solid black;
+    border-radius: 23px;
+    box-shadow: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family:just;
+    font-size:30px;
+    transition: 0.2s;
 }
 .czikała {
     position: absolute;
@@ -150,14 +172,15 @@ body{
     transform: translate(-50%, -50%);
     width: 30%;
 }
-
 .obrazek {
+    display: block;
     width: 100%;
-    border: 4px solid black;
-    border-radius: 23px;
-    box-shadow: 7px 8px 2px black;
+    border: 7.6px solid black;
+    border-radius: 30px;
+    box-shadow: 6px 7px 1px black;
 }
 
+/* O MNIE */
 .bg-white {
     width: 80%;
     max-width: 1400px;
@@ -166,4 +189,30 @@ body{
     background-image: url("biale.PNG");
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.om-image {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+.om-ja{
+    width: 80%;
+    border: 7.6px solid black;
+    border-radius: 30px;
+    box-shadow: 6px 7px 1px black;
+}
+.om-text {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translateY(-50%);
+    width: 35%;
+    font-size: 15px;
+}
+.om1{
+    margin: 0px;
 }
